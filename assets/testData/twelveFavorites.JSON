@@ -1,0 +1,148 @@
+{   "PEP": {
+    "meta": {
+        "symbol": "AAPL",
+        "interval": "1day",
+        "currency": "USD",
+        "exchange_timezone": "America/New_York",
+        "exchange": "NASDAQ",
+        "type": "Common Stock"
+    },
+    "values": [
+        {
+            "datetime": "2021-03-31",
+            "open": "121.65000",
+            "high": "123.52000",
+            "low": "121.15000",
+            "close": "122.15000",
+            "volume": "118162900"
+        }
+    ],
+    "status": "ok"
+},
+    "KO": {
+    "meta": {
+        "symbol": "KO",
+        "interval": "1day",
+        "currency": "USD",
+        "exchange_timezone": "America/New_York",
+        "exchange": "NASDAQ",
+        "type": "Common Stock"
+    },
+    "values": [
+        {
+            "datetime": "2021-03-31",
+            "open": "121.65000",
+            "high": "123.52000",
+            "low": "121.15000",
+            "close": "122.15000",
+            "volume": "118162900"
+        }
+    ],
+    "status": "ok"
+},
+    "AAPL": {
+        "meta": {
+            "symbol": "AAPL",
+            "interval": "1day",
+            "currency": "USD",
+            "exchange_timezone": "America/New_York",
+            "exchange": "NASDAQ",
+            "type": "Common Stock"
+        },
+        "values": [
+            {
+                "datetime": "2021-03-31",
+                "open": "121.65000",
+                "high": "123.52000",
+                "low": "121.15000",
+                "close": "122.15000",
+                "volume": "118162900"
+            }
+        ],
+        "status": "ok"
+    },
+    "AMAT": {
+        "meta": {
+            "symbol": "AMAT",
+            "interval": "1day",
+            "currency": "USD",
+            "exchange_timezone": "America/New_York",
+            "exchange": "NASDAQ",
+            "type": "Common Stock"
+        },
+        "values": [
+            {
+                "datetime": "2021-03-31",
+                "open": "129.97000",
+                "high": "135.50000",
+                "low": "129.00000",
+                "close": "133.60001",
+                "volume": "18538000"
+            }
+        ],
+        "status": "ok"
+    },
+    "GM": {
+        "meta": {
+            "symbol": "GM",
+            "interval": "1day",
+            "currency": "USD",
+            "exchange_timezone": "America/New_York",
+            "exchange": "NYSE",
+            "type": "Common Stock"
+        },
+        "values": [
+            {
+                "datetime": "2021-03-31",
+                "open": "58.28000",
+                "high": "58.58000",
+                "low": "57.27000",
+                "close": "57.46000",
+                "volume": "20744900"
+            }
+        ],
+        "status": "ok"
+    },
+    "HP": {
+        "meta": {
+            "symbol": "HP",
+            "interval": "1day",
+            "currency": "USD",
+            "exchange_timezone": "America/New_York",
+            "exchange": "NYSE",
+            "type": "Common Stock"
+        },
+        "values": [
+            {
+                "datetime": "2021-03-31",
+                "open": "27.44000",
+                "high": "27.52000",
+                "low": "26.76000",
+                "close": "26.96000",
+                "volume": "1421500"
+            }
+        ],
+        "status": "ok"
+    },
+    "IBM": {
+        "meta": {
+            "symbol": "IBM",
+            "interval": "1day",
+            "currency": "USD",
+            "exchange_timezone": "America/New_York",
+            "exchange": "NYSE",
+            "type": "Common Stock"
+        },
+        "values": [
+            {
+                "datetime": "2021-03-31",
+                "open": "134.53999",
+                "high": "134.71001",
+                "low": "132.71001",
+                "close": "133.25999",
+                "volume": "4945100"
+            }
+        ],
+        "status": "ok"
+    }
+}

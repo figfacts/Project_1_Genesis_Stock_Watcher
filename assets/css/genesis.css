@@ -1,0 +1,247 @@
+/* Styling of background image */
+#bg {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+  
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+}
+
+body{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: auto auto auto;
+    grid-gap: 10px;
+}
+
+header{
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+    margin-right: 0%;
+    width: 100%;
+    margin-left: 10px;
+}
+
+/* styling of header jumbotron */
+.container.jumbo{
+    background-color: whitesmoke;
+    opacity: 85%;
+}
+
+.container.jumbo:hover{
+    background-color: cornflowerblue;
+    transition: 2s;
+}
+
+#jumbo-text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    transition-property:all;
+    transition-duration: 3s;
+    transition-delay: 1s;
+}
+
+#jumbo-text:hover{
+font-size: 66px;
+}
+
+.jumbo p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-style: italic;
+}
+
+/* Styling of main ticker contianer */
+#ticker-container{
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+    order: 1;
+    border-style: solid;
+    border-width: 1px;
+    width: 60%;
+    min-width: 450px;
+    margin-right: 0%;
+    background-color: whitesmoke;
+    opacity: 85%;
+}
+
+/* Styling of favorites container */
+#favorites{
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+    border-style: solid;
+    border-width: 1px;
+    height: auto;
+    margin-left: 0%;
+    max-width: 75%;
+    background-color: whitesmoke;
+    opacity: 85%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: auto;
+}
+
+#container-news{
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+    border-style: solid;
+    border-width: 1px;
+    height: auto;
+    width: 60%;
+    min-width: 450px;
+    background-color: whitesmoke;
+    opacity: 85%; 
+    margin-right: 0%;
+    flex-basis: auto;
+}
+
+div .bgcolor{
+    background-color: none;
+}
+
+#ticker-name{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+
+.container p{
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card{
+margin-top: 8px;
+margin-bottom: 8px;
+}
+
+#btnAddFavorite:hover{
+ transition: all .2s ease-in-out; 
+ transform: scale(1.1); 
+}
+
+.savebtn1info:hover{
+    transition: all .2s ease-in-out; 
+    transform: scale(1.1); 
+}
+
+.savebtn1news:hover{
+    transition: all .2s ease-in-out; 
+    transform: scale(1.1); 
+}
+
+.savebtn1del:hover{
+    transition: all .2s ease-in-out; 
+    transform: scale(1.1); 
+}
+
+.savebtn1info{
+    display: flex;
+    flex-direction: row;
+    width: 40px;
+}
+
+.savebtn1news{
+    display: flex;
+    flex-direction: row;
+    width: 40px;
+    position: relative;
+    left: 60px;
+    bottom: 40px;
+}
+
+.savebtn1del{
+    display: flex;
+    flex-direction: row;
+    width: 40px;
+    position: relative;
+    left: 113px;
+    bottom: 80px;
+}
+
+#btnAddFavorite{
+    position: relative;
+    width: 80px;
+    left: 270px;
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: rgb(167, 40, 40);
+}
+
+/* Styling for cards from API Favorites */
+body .card-text{
+    font-size: 0.8rem;
+}
+
+body .card-text-winner{
+    font-size: 0.8rem;
+    color: black;
+    background-color: chartreuse;
+}
+
+body .card-text-loser{
+    font-size: 0.8rem;
+    background-color: crimson;
+}
+
+.winner{
+    background-color: chartreuse;
+}
+
+.loser{
+    background-color: crimson;
+}
+
+/* Styling for Modal */
+.modal-title{
+    font-family:monospace;
+    position: relative;
+    left: 50px;
+    font-size: 45px;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+.modal-body{
+    background-color: rgb(236, 131, 45);
+}
+
+#modalMessage{
+    font-style:italic;
+    font-weight: normal;
+    position: relative;
+    left: 30px;
+    color: white;
+    font-family:monospace;
+    font-size: 20px;
+}
+
+div.modal-content{
+    background-color: rgb(236, 131, 45);
+}
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
